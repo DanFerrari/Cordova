@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/index.css">
     <title>Sonora</title>
 </head>
 <body>
- <div  class="container  vh-100 d-flex flex-column justify-content-center align-items-center overflow-none">
+ <div  class="container  vh-100 d-flex flex-column justify-content-center align-items-center overflow-none  gap-4">
 
     
     <header class="text-center">
@@ -18,23 +19,22 @@
     </header>
     
 
-    <div class="d-flex flex-column row gy-2">
+    <div class="d-flex flex-column row gy-4 text-center">
         
         <label for="user">Usuário</label>
         <input type="text" name="user" placeholder="Usuário">
         
-        <label for="password">Usuário</label>
-        <input type="text" name="password" placeholder="Usuário">
+        <label for="password">Senha</label>
+        <input type="text" name="password" placeholder="Senha">
 
-        <button>Login</button>
-        <a href="#">Esqueceu a senha?</a>
+        <button type="button" class="btn btn-primary">Login</button>    
+            <a href="#">Esqueceu a senha?</a>
     </div>
 
 
     <footer>
 
-        <button><img src="" alt=""> Cadastre-se</button>
-
+        <button type="button" class="btn btn-light">Cadastre-se</button>
     </footer>
 
 
